@@ -11,6 +11,7 @@ namespace DaiMaWuDong.MSACommerce.DTOModel
     /// </summary>
     public class DTOJWTUser
     {
+
         public int id { get; set; }
 
         public string username { get; set; }
