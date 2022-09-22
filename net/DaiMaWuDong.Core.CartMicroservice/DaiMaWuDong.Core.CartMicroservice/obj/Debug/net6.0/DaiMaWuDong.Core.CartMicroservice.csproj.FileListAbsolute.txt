@@ -100,13 +100,3 @@ E:\daimawudong\代码\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMic
 E:\daimawudong\代码\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.pdb
 E:\daimawudong\代码\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.genruntimeconfig.cache
 E:\daimawudong\代码\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\ref\DaiMaWuDong.Core.CartMicroservice.dll
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.csproj.AssemblyReference.cache
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.GeneratedMSBuildEditorConfig.editorconfig
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.AssemblyInfoInputs.cache
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.AssemblyInfo.cs
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.csproj.CoreCompileInputs.cache
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.MvcApplicationPartsAssemblyInfo.cs
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.MvcApplicationPartsAssemblyInfo.cache
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.dll
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\refint\DaiMaWuDong.Core.CartMicroservice.dll
-D:\daimawudong\DaiMaWuDongHD\net\DaiMaWuDong.Core.CartMicroservice\DaiMaWuDong.Core.CartMicroservice\obj\Debug\net6.0\DaiMaWuDong.Core.CartMicroservice.pdb

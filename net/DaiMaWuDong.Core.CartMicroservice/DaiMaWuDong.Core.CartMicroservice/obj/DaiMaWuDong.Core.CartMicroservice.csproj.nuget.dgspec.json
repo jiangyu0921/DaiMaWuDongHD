@@ -1,31 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj": {}
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj": {}
   },
   "projects": {
-    "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj": {
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj",
+        "projectUniqueName": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj",
         "projectName": "DaiMaWuDong.Core.CartMicroservice",
-        "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\obj\\",
+        "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.Core.CartMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\vs\\sdk\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
           "http://192.168.9.188:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -33,14 +37,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
-                "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj"
               },
-              "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
-                "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
               },
-              "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj": {
-                "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj"
               }
             }
           }
@@ -102,7 +106,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -114,32 +119,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj",
+        "projectUniqueName": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj",
         "projectName": "DaiMaWuDong.MSACommerce.Interface",
-        "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\obj\\",
+        "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\vs\\sdk\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
           "http://192.168.9.188:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -147,8 +156,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
-                "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
               }
             }
           }
@@ -174,7 +183,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -183,32 +193,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj",
+        "projectUniqueName": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj",
         "projectName": "DaiMaWuDong.MSACommerce.Model",
-        "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\obj\\",
+        "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\vs\\sdk\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
           "http://192.168.9.188:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -247,7 +261,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -256,32 +271,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj": {
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj",
+        "projectUniqueName": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj",
         "projectName": "DaiMaWuDong.MSACommerce.Service",
-        "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\obj\\",
+        "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\vs\\sdk\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
           "http://192.168.9.188:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -289,11 +308,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
-                "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj"
               },
-              "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
-                "projectPath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
               }
             }
           }
@@ -331,7 +350,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -340,7 +360,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
