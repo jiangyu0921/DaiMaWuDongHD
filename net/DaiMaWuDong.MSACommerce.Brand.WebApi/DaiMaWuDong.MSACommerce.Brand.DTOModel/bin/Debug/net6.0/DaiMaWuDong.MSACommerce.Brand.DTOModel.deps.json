@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DaiMaWuDong.MSACommerce.Brand.DTOModel/1.0.0": {
+        "dependencies": {
+          "DaiMaWuDong.Common.Model": "1.0.2"
+        },
+        "runtime": {
+          "DaiMaWuDong.MSACommerce.Brand.DTOModel.dll": {}
+        }
+      },
+      "DaiMaWuDong.Common.Model/1.0.2": {
+        "runtime": {
+          "lib/net6.0/DaiMaWuDong.Common.Model.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DaiMaWuDong.MSACommerce.Brand.DTOModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DaiMaWuDong.Common.Model/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J5y/nztVGc8kMbPgvTdo2/yIUd6OzFr/16qDH4UgU4Q8MjGnilXNyjnuRq8udd5NPy6KJmH0AsaE2oDtpMlA8w==",
+      "path": "daimawudong.common.model/1.0.2",
+      "hashPath": "daimawudong.common.model.1.0.2.nupkg.sha512"
+    }
+  }
+}

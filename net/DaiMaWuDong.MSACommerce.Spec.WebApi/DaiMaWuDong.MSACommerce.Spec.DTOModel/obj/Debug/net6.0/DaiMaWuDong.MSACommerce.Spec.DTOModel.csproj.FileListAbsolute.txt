@@ -1,0 +1,12 @@
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.deps.json
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.csproj.AssemblyReference.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.AssemblyInfoInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.AssemblyInfo.cs
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.csproj.CoreCompileInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\refint\DaiMaWuDong.MSACommerce.Spec.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.DTOModel\obj\Debug\net6.0\ref\DaiMaWuDong.MSACommerce.Spec.DTOModel.dll

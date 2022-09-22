@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.Category.WebApi", "DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.WebApi.csproj", "{4625900A-12A8-4819-9014-E9810B1A3C03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.Category.DTOModel", "DaiMaWuDong.MSACommerce.Category.DTOModel\DaiMaWuDong.MSACommerce.Category.DTOModel.csproj", "{4EBC18C7-BEC1-40E2-BCDB-34563E2F45B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.Category.Interface", "DaiMaWuDong.MSACommerce.Category.Interface\DaiMaWuDong.MSACommerce.Category.Interface.csproj", "{06A54526-FAC2-46AC-AE25-BF386420AE2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.Category.Model", "DaiMaWuDong.MSACommerce.Category.Model\DaiMaWuDong.MSACommerce.Category.Model.csproj", "{1C3DD24E-FB72-4F21-973A-C3D20EC67A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.Category.Service", "DaiMaWuDong.MSACommerce.Category.Service\DaiMaWuDong.MSACommerce.Category.Service.csproj", "{73131644-E81C-4DF4-826D-958213D36DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4625900A-12A8-4819-9014-E9810B1A3C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4625900A-12A8-4819-9014-E9810B1A3C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4625900A-12A8-4819-9014-E9810B1A3C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4625900A-12A8-4819-9014-E9810B1A3C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBC18C7-BEC1-40E2-BCDB-34563E2F45B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBC18C7-BEC1-40E2-BCDB-34563E2F45B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBC18C7-BEC1-40E2-BCDB-34563E2F45B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBC18C7-BEC1-40E2-BCDB-34563E2F45B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A54526-FAC2-46AC-AE25-BF386420AE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A54526-FAC2-46AC-AE25-BF386420AE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A54526-FAC2-46AC-AE25-BF386420AE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A54526-FAC2-46AC-AE25-BF386420AE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3DD24E-FB72-4F21-973A-C3D20EC67A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3DD24E-FB72-4F21-973A-C3D20EC67A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3DD24E-FB72-4F21-973A-C3D20EC67A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3DD24E-FB72-4F21-973A-C3D20EC67A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73131644-E81C-4DF4-826D-958213D36DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73131644-E81C-4DF4-826D-958213D36DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73131644-E81C-4DF4-826D-958213D36DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73131644-E81C-4DF4-826D-958213D36DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {473142E4-F043-4C9C-8C14-5FB7E5EABD26}
+	EndGlobalSection
+EndGlobal

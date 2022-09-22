@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "REhTvjB8h5DHyB9GDjf9z+JMxCMArZgkgk41Z1av3B0=",
+  "Source": "DaiMaWuDong.Core.OrderMicroservice",
+  "BasePath": "_content/DaiMaWuDong.Core.OrderMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

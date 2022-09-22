@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "F9hVjVbLl47z9a3gRjQKbsHuLOKzJ6QUmWtbH+fh8zj3q0omuHddCrT6AJ4tBCEhdEkYWOL72JuqK2AShGNFSg==",
+  "success": true,
+  "projectFilePath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.PageDetail\\DaiMaWuDong.MSACommerce.Detail.Model\\DaiMaWuDong.MSACommerce.Detail.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\daimawudong.common.model\\1.0.2\\daimawudong.common.model.1.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://127.0.0.1:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

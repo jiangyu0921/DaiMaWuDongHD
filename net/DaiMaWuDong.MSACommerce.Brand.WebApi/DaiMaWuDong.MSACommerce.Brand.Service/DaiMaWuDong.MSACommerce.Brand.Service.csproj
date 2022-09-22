@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Consul" Version="1.0.1" />
+    <PackageReference Include="log4net.Kafka.Core" Version="1.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Brand.Interface\DaiMaWuDong.MSACommerce.Brand.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

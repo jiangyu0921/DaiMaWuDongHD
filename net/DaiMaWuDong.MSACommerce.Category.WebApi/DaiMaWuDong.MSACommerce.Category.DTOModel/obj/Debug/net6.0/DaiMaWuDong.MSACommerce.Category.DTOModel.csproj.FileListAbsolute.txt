@@ -1,0 +1,12 @@
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.deps.json
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.csproj.AssemblyReference.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.AssemblyInfoInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.AssemblyInfo.cs
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.csproj.CoreCompileInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\refint\DaiMaWuDong.MSACommerce.Category.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.DTOModel.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.DTOModel\obj\Debug\net6.0\ref\DaiMaWuDong.MSACommerce.Category.DTOModel.dll

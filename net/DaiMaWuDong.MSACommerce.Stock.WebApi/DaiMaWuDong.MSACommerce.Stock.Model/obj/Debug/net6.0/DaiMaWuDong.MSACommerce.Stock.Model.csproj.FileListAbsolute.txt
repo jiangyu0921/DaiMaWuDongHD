@@ -1,0 +1,15 @@
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.deps.json
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.DTOModel.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.csproj.AssemblyReference.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.AssemblyInfoInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.AssemblyInfo.cs
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.csproj.CoreCompileInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.csproj.CopyComplete
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\refint\DaiMaWuDong.MSACommerce.Stock.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Stock.Model.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Stock.WebApi\DaiMaWuDong.MSACommerce.Stock.Model\obj\Debug\net6.0\ref\DaiMaWuDong.MSACommerce.Stock.Model.dll

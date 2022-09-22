@@ -1,0 +1,279 @@
+﻿{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/auth/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "AuthenticationCenter",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 7200
+      //  }
+      //],
+      "DownstreamPathTemplate": "/api/auth/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+
+    {
+      "UpstreamPathTemplate": "/auth/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "AuthenticationCenter",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //LeastConnection-  NoLoadBalance
+      },
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 7200
+      //  }
+      //],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+      //"RateLimitOptions": {
+      //  "ClientWhitelist": [ "eleven", "seven" ],
+      //  "EnableRateLimiting": true,
+      //  "Period": "5m", //1s, 5m, 1h, 1d
+      //  "PeriodTimespan": 30,
+      //  "Limit": 5
+      //}
+    },
+
+    {
+      "UpstreamPathTemplate": "/api/user/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UseServiceDiscovery": true,
+      "ServiceName": "UserMicroservice",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5726
+      //  }
+      //],
+      "DownstreamPathTemplate": "/api/user/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/api/user/getwithauthorize",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UseServiceDiscovery": true,
+      "ServiceName": "UserMicroservice",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5726
+      //  }
+      //],
+      "DownstreamPathTemplate": "/api/user/getwithauthorize",
+      "DownstreamScheme": "http",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "UserGatewayKey",
+        "AllowedScopes": []
+      },
+      "Priority": 3,
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/user/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "UserMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5726
+      //  }
+      //],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/api/DataItem/{url}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      "UseServiceDiscovery": true,
+      "ServiceName": "UserMicroservice",
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5726
+      //  }
+      //],
+      "DownstreamPathTemplate": "/api/DataItem/{url}",
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/DataItem/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "UserMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin"
+      },
+      //"DownstreamHostAndPorts": [
+      //  {
+      //    "Host": "127.0.0.1",
+      //    "Port": 5726
+      //  }
+      //],
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/api/search/{url}", //网关地址--url变量
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "GoodsSearchMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/api/search/{url}", //服务地址--url变量
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*", //不存在就添加
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/search/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "GoodsSearchMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/api/cart/{url}", //网关地址--url变量
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "CartMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/api/cart/{url}", //服务地址--url变量
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*", //不存在就添加
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/cart/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "CartMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/api/order/{url}", //网关地址--url变量
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "OrderMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/api/order/{url}", //服务地址--url变量
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*", //不存在就添加
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/order/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "OrderMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    },
+    {
+      "UpstreamPathTemplate": "/api/pay/{url}", //网关地址--url变量
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "PATCH", "Delete", "Options" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "PayMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/api/pay/{url}", //服务地址--url变量
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": {
+        "Access-Control-Allow-Origin": "*", //不存在就添加
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      }
+    },
+    {
+      "UpstreamPathTemplate": "/pay/swagger/v1/swagger.json",
+      "UpstreamHttpMethod": [ "Get" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "PayMicroservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/swagger/v1/swagger.json",
+      "DownstreamScheme": "http"
+    }
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://127.0.0.1:6299",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "RateLimitOptions": {
+      "QuotaExceededMessage": "Too many requests, maybe later? 11",
+      "HttpStatusCode": 666
+      //"ClientIdHeader": "client_id" //  ClientId
+    }
+  }
+}

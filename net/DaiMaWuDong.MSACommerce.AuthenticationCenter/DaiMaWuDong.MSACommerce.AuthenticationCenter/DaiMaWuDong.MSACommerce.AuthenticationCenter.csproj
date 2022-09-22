@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DaiMaWuDong.AgileFramework.AuthenticationCenter" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Consul" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Encryption" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.Common.Model" Version="1.0.2" />
+    <PackageReference Include="log4net.Kafka.Core" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.DTOModel\DaiMaWuDong.MSACommerce.DTOModel.csproj" />
+  </ItemGroup>
+
+</Project>

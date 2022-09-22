@@ -1,0 +1,14 @@
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.csproj.AssemblyReference.cache
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.AssemblyInfoInputs.cache
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.AssemblyInfo.cs
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.csproj.CoreCompileInputs.cache
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.MvcApplicationPartsAssemblyInfo.cs
+D:\Project\ArchitectBBS\trunk\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.MvcApplicationPartsAssemblyInfo.cache
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.csproj.AssemblyReference.cache
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.AssemblyInfoInputs.cache
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.AssemblyInfo.cs
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.csproj.CoreCompileInputs.cache
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.MvcApplicationPartsAssemblyInfo.cs
+D:\github\KnowledgeBase\电商实战\Zhaoxi.MSACommerce\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Debug\net5.0\Zhaoxi.MSACormmerce.PortalProject.MvcApplicationPartsAssemblyInfo.cache

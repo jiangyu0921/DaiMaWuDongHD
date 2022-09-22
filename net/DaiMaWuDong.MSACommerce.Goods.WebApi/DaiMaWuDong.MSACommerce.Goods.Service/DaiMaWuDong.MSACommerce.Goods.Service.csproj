@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Cache" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Consul" Version="1.0.1" />
+    <PackageReference Include="log4net.Kafka.Core" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Clients.ActiveDirectory" Version="5.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Goods.Interface\DaiMaWuDong.MSACommerce.Goods.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

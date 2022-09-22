@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kM0LL5Lo1twW7AXpBlWa1jVFkOkH/hAEN3uXDZ4UMHE=",
+  "Source": "DaiMaWuDong.Core.CartMicroservice",
+  "BasePath": "_content/DaiMaWuDong.Core.CartMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

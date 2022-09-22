@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DaiMaWuDong.AgileFramework.AuthenticationCenter" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Cache" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Common" Version="1.0.0" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Consul" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.Common.Model" Version="1.0.2" />
+    <PackageReference Include="log4net.Kafka.Core" Version="1.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Interface\DaiMaWuDong.MSACommerce.Interface.csproj" />
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Model\DaiMaWuDong.MSACommerce.Model.csproj" />
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Service\DaiMaWuDong.MSACommerce.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seckill.ScheduledProccessor", "Seckill.ScheduledProccessor\Seckill.ScheduledProccessor.csproj", "{3465E9CF-1E13-4745-A9E3-02E747AD32ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seckill.API", "Seckill.API\Seckill.API.csproj", "{C89D6383-DB84-479D-AE9F-05B3A77457C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seckill.Common", "Seckill.Common\Seckill.Common.csproj", "{64D66812-6027-49F1-963B-60149A0010D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seckill.EntityFrameworkCore", "Seckill.EntityFrameworkCore\Seckill.EntityFrameworkCore.csproj", "{DEB90681-2773-4435-B8F7-16726E9456A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seckill.PreheatProccessor", "Seckill.PreheatProccessor\Seckill.PreheatProccessor.csproj", "{DAFC41D7-7858-48CF-B69A-7726D7AA55C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3465E9CF-1E13-4745-A9E3-02E747AD32ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3465E9CF-1E13-4745-A9E3-02E747AD32ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3465E9CF-1E13-4745-A9E3-02E747AD32ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3465E9CF-1E13-4745-A9E3-02E747AD32ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89D6383-DB84-479D-AE9F-05B3A77457C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89D6383-DB84-479D-AE9F-05B3A77457C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89D6383-DB84-479D-AE9F-05B3A77457C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89D6383-DB84-479D-AE9F-05B3A77457C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D66812-6027-49F1-963B-60149A0010D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D66812-6027-49F1-963B-60149A0010D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D66812-6027-49F1-963B-60149A0010D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D66812-6027-49F1-963B-60149A0010D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB90681-2773-4435-B8F7-16726E9456A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB90681-2773-4435-B8F7-16726E9456A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB90681-2773-4435-B8F7-16726E9456A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB90681-2773-4435-B8F7-16726E9456A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFC41D7-7858-48CF-B69A-7726D7AA55C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFC41D7-7858-48CF-B69A-7726D7AA55C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFC41D7-7858-48CF-B69A-7726D7AA55C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFC41D7-7858-48CF-B69A-7726D7AA55C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {527C4F9C-1181-4C71-A57E-E7568A0C8188}
+	EndGlobalSection
+EndGlobal

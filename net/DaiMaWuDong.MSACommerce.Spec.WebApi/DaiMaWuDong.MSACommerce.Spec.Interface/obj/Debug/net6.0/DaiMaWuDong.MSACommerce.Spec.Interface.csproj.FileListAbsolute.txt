@@ -1,0 +1,17 @@
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.csproj.AssemblyReference.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.AssemblyInfoInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.AssemblyInfo.cs
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.csproj.CoreCompileInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.deps.json
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Model.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.DTOModel.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.csproj.CopyComplete
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\refint\DaiMaWuDong.MSACommerce.Spec.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Spec.Interface.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Spec.WebApi\DaiMaWuDong.MSACommerce.Spec.Interface\obj\Debug\net6.0\ref\DaiMaWuDong.MSACommerce.Spec.Interface.dll

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "zH9TYmjsHpw9IQX6ryPtKPQ8KNP1UJsB6Dk0JQ7HUtWIvIg7DC+NHGkpjHZxgjlkrJrXUL2znkZ8gRBEl0oU6w==",
+  "success": true,
+  "projectFilePath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.Search.WebApi\\DaiMaWuDong.MSACommerce.Search.Model\\DaiMaWuDong.MSACommerce.Search.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\elasticsearch.net\\7.17.4\\elasticsearch.net.7.17.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\nest\\7.17.4\\nest.7.17.4.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://127.0.0.1:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

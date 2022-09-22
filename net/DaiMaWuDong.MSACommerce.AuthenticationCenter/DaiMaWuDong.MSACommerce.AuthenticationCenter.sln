@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.AuthenticationCenter", "DaiMaWuDong.MSACommerce.AuthenticationCenter\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj", "{849666E8-A9BB-45BE-BE35-945BEC4AD20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaiMaWuDong.MSACommerce.DTOModel", "DaiMaWuDong.MSACommerce.DTOModel\DaiMaWuDong.MSACommerce.DTOModel.csproj", "{AF964A3D-CD0A-4FCE-9FC5-8815CB4697BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{849666E8-A9BB-45BE-BE35-945BEC4AD20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849666E8-A9BB-45BE-BE35-945BEC4AD20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849666E8-A9BB-45BE-BE35-945BEC4AD20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849666E8-A9BB-45BE-BE35-945BEC4AD20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF964A3D-CD0A-4FCE-9FC5-8815CB4697BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF964A3D-CD0A-4FCE-9FC5-8815CB4697BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF964A3D-CD0A-4FCE-9FC5-8815CB4697BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF964A3D-CD0A-4FCE-9FC5-8815CB4697BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA51AF3D-2D29-400A-86A2-2E45C686F323}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.csproj.AssemblyReference.cache
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.AssemblyInfoInputs.cache
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.AssemblyInfo.cs
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.csproj.CoreCompileInputs.cache
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.MvcApplicationPartsAssemblyInfo.cs
+D:\Gerry\onlineretailers\KnowledgeBase\02\Zhaoxi.MSACommerce.Project\Zhaoxi.MSACormmerce.PortalProject\obj\Release\net6.0\Zhaoxi.MSACormmerce.PortalProject.MvcApplicationPartsAssemblyInfo.cache

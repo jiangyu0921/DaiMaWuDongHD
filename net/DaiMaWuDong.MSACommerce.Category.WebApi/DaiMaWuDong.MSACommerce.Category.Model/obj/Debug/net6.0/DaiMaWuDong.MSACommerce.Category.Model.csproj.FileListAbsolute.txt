@@ -1,0 +1,12 @@
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.deps.json
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.csproj.AssemblyReference.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.AssemblyInfoInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.AssemblyInfo.cs
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.csproj.CoreCompileInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\refint\DaiMaWuDong.MSACommerce.Category.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Category.Model.pdb
+E:\daimawudong\代码\DaiMaWuDong.MSACommerce.Category.WebApi\DaiMaWuDong.MSACommerce.Category.Model\obj\Debug\net6.0\ref\DaiMaWuDong.MSACommerce.Category.Model.dll

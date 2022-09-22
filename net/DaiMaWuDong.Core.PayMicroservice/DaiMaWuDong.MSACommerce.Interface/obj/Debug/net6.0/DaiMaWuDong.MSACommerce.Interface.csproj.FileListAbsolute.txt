@@ -1,0 +1,17 @@
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.deps.json
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.pdb
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.csproj.AssemblyReference.cache
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.GeneratedMSBuildEditorConfig.editorconfig
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.AssemblyInfoInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.AssemblyInfo.cs
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.csproj.CoreCompileInputs.cache
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\refint\DaiMaWuDong.MSACommerce.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.pdb
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\ref\DaiMaWuDong.MSACommerce.Interface.dll
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Model.dll
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.Model.pdb
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\obj\Debug\net6.0\DaiMaWuDong.MSACommerce.Interface.csproj.CopyComplete
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.DTOModel.dll
+E:\daimawudong\代码\DaiMaWuDong.Core.PayMicroservice\DaiMaWuDong.MSACommerce.Interface\bin\Debug\net6.0\DaiMaWuDong.MSACommerce.DTOModel.pdb

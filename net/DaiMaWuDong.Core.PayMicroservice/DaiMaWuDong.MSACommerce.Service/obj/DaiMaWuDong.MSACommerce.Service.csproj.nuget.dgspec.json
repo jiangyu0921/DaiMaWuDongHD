@@ -1,0 +1,364 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj": {}
+  },
+  "projects": {
+    "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.DTOModel",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.Interface",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
+                "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.AuthenticationCenter": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.Cache": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DaiMaWuDong.AgileFramework.Consul": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.HttpApiExtend": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DaiMaWuDong.AgileFramework.MiddlewareExtende": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.PollyExtend": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.RabbitMQ": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.WechatPayCore": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.Common.Model": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DotNetCore.CAP": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "DotNetCore.CAP.MySql": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "DotNetCore.CAP.RabbitMQ": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "log4net.Kafka.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.Model",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Model\\DaiMaWuDong.MSACommerce.Model.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj": {
+                "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DaiMaWuDong.Common.Model": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.Service",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Service\\DaiMaWuDong.MSACommerce.Service.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj": {
+                "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.PayMicroservice\\DaiMaWuDong.MSACommerce.Interface\\DaiMaWuDong.MSACommerce.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Interface\\DaiMaWuDong.MSACommerce.Seckill.Interface.csproj": {}
+  },
+  "projects": {
+    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\DaiMaWuDong.MSACommerce.Seckill.DTOModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\DaiMaWuDong.MSACommerce.Seckill.DTOModel.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.Seckill.DTOModel",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\DaiMaWuDong.MSACommerce.Seckill.DTOModel.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Interface\\DaiMaWuDong.MSACommerce.Seckill.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Interface\\DaiMaWuDong.MSACommerce.Seckill.Interface.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.Seckill.Interface",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Interface\\DaiMaWuDong.MSACommerce.Seckill.Interface.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Model\\DaiMaWuDong.MSACommerce.Seckill.Model.csproj": {
+                "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Model\\DaiMaWuDong.MSACommerce.Seckill.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac.Extras.DynamicProxy": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.AuthenticationCenter": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.Cache": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DaiMaWuDong.AgileFramework.Consul": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.HttpApiExtend": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "DaiMaWuDong.AgileFramework.PollyExtend": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DaiMaWuDong.AgileFramework.RabbitMQ": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "log4net.Kafka.Core": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Model\\DaiMaWuDong.MSACommerce.Seckill.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Model\\DaiMaWuDong.MSACommerce.Seckill.Model.csproj",
+        "projectName": "DaiMaWuDong.MSACommerce.Seckill.Model",
+        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Model\\DaiMaWuDong.MSACommerce.Seckill.Model.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "http://127.0.0.1:5000/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\DaiMaWuDong.MSACommerce.Seckill.DTOModel.csproj": {
+                "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\DaiMaWuDong.MSACommerce.Seckill.DTOModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DaiMaWuDong.Common.Model": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

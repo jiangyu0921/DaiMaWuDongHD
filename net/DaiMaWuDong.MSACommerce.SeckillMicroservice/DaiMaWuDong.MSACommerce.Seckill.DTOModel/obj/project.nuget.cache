@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "N4fMKg5bWakdrQkzujn498IfMhOdwWB4agLTgrQlLcstu9PAIktNmVWIE+coRyAZekdmvO6frL3UtSdmrFBygQ==",
+  "success": true,
+  "projectFilePath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.SeckillMicroservice\\DaiMaWuDong.MSACommerce.Seckill.DTOModel\\DaiMaWuDong.MSACommerce.Seckill.DTOModel.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://127.0.0.1:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

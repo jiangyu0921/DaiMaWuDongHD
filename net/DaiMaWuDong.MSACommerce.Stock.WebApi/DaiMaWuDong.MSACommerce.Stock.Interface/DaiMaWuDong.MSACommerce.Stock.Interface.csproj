@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DaiMaWuDong.AgileFramework.AuthenticationCenter" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Cache" Version="1.0.2" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Common" Version="1.0.0" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.Consul" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.HttpApiExtend" Version="1.0.2" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.PollyExtend" Version="1.0.1" />
+    <PackageReference Include="DaiMaWuDong.AgileFramework.RabbitMQ" Version="1.0.1" />
+    <PackageReference Include="DotNetCore.CAP" Version="6.2.0" />
+    <PackageReference Include="DotNetCore.CAP.MySql" Version="6.2.0" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="6.2.0" />
+    <PackageReference Include="log4net.Kafka.Core" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Stock.Model\DaiMaWuDong.MSACommerce.Stock.Model.csproj" />
+  </ItemGroup>
+
+</Project>
