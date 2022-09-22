@@ -25,6 +25,7 @@ namespace DaiMaWuDong.MSACommerce.Model.Models
 
         public OrangeContext(string connstr)
         {
+
             _connStr = connstr;
         }
 
