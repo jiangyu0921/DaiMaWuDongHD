@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oCNFu/HrRgOfZccbU6Eql+A9LvlatYRR1jsrmyMqfITiH+SuFA4WiPd3whyu4HjvlQcLy8acRmavyhbYexIjHg==",
+  "dgSpecHash": "5J1pa4BWVd34Grpp9aljpNETJ9Qh7Kxe575lDfQ3S/umb7r2Xp5rgb6gB9dJzSHN/9uSu2IDKpCDVrZOVcdneA==",
   "success": true,
-  "projectFilePath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
+  "projectFilePath": "D:\\daimawudong\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.CartMicroservice\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://127.0.0.1:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }
