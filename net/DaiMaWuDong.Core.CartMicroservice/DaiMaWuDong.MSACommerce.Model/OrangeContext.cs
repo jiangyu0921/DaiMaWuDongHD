@@ -17,6 +17,7 @@ namespace DaiMaWuDong.MSACommerce.Model.Models
 
         public OrangeContext(IOptionsMonitor<MySqlConnOptions> optionsMonitor)
         {
+
             _optionsMonitor = optionsMonitor;
             _connStr = _optionsMonitor.CurrentValue.Url;
         }
