@@ -10,7 +10,6 @@
     <PackageReference Include="DaiMaWuDong.AgileFramework.Cache" Version="1.0.1" />
     <PackageReference Include="DaiMaWuDong.AgileFramework.Encryption" Version="1.0.1" />
     <PackageReference Include="DaiMaWuDong.AgileFramework.Message" Version="1.0.1" />
-    <PackageReference Include="DaiMaWuDong.Common.Model" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>

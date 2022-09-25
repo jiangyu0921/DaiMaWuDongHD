@@ -1,12 +1,17 @@
 ﻿using DaiMaWuDong.AgileFramework.Cache;
 using DaiMaWuDong.AgileFramework.Encryption;
 using DaiMaWuDong.AgileFramework.Message;
+using DaiMaWuDong.AgileFramework.ORMSelfResearch;
+using DaiMaWuDong.AgileFramework.ORMSelfResearch.Services;
 using DaiMaWuDong.Common.Model;
 using DaiMaWuDong.MSACommerce.Interface;
 using DaiMaWuDong.MSACommerce.Model;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,16 +19,22 @@ namespace DaiMaWuDong.MSACommerce.Service
 {
     public class UserService : IUserService
     {
-        private OrangeContext _orangeContext;
         private CacheClientDB _cacheClientDB;
-        //private ISqlSugarCompanyService _sqlSugarCompanyService;
-        public UserService(OrangeContext orangeContext, CacheClientDB cacheClientDB)//, ISqlSugarCompanyService sqlSugarCompanyService)
+        private readonly IOptionsMonitor<MySqlConnOptions> _optionsMonitor;
+        private static DbProxyCoreOptions dbProxyCoreOptions;
+        public UserService(CacheClientDB cacheClientDB, IOptionsMonitor<MySqlConnOptions> optionsMonitor)//, ISqlSugarCompanyService sqlSugarCompanyService)
         {
-            _orangeContext = orangeContext;
             _cacheClientDB = cacheClientDB;
+            _optionsMonitor = optionsMonitor;
+            dbProxyCoreOptions = new CustomDbProxy(new DbProxyOptions()
+            {
+                ConnectionString = _optionsMonitor.CurrentValue.Url
+            });
             //_sqlSugarCompanyService = sqlSugarCompanyService;
         }
         private static readonly string KEY_PREFIX = "user:verify:code:";
+
+
 
         /// <summary>
         /// 检查数据重复
@@ -38,14 +49,17 @@ namespace DaiMaWuDong.MSACommerce.Service
             switch (type)
             {
                 case 1:
-                    exist = _orangeContext.TbUser.Count(u => u.Username.Equals(data));
+                    //exist = _orangeContext.TbUser.Count(u => u.Username.Equals(data));
+
+                    exist = dbProxyCoreOptions.Query<TbUser>(c => c.Username == data && c.status == 0 && c.del_flag == 0).Count;
                     return new AjaxResult()
                     {
                         Result = exist == 0,
                         Message = exist == 0 ? "校验成功" : "校验失败，用户名重复"
                     };
                 case 2:
-                    exist = _orangeContext.TbUser.Count(u => u.Phone.Equals(data));
+                    //exist = _orangeContext.TbUser.Count(u => u.Phone.Equals(data));
+                    exist = dbProxyCoreOptions.Query<TbUser>(c => c.Phone == data && c.status == 0 && c.del_flag == 0).Count;
                     return new AjaxResult()
                     {
                         Result = exist == 0,
@@ -65,79 +79,259 @@ namespace DaiMaWuDong.MSACommerce.Service
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        public TbUser QueryUser(string username, string password)
+        public AjaxResult<TbUser> QueryUser(string username, string password, int type)
+        {
+            switch (type)
+            {
+                case 1:
+                    return QueryUserpows(username, password);
+                case 2:
+                    return QueryUserOnekey(username);
+                case 3:
+                    return QueryUserSendVerify(username, password);
+                default:
+                    return QueryUserpows(username, password);
+            }
+        }
+
+        /// <summary>
+        /// 短信登录
+        /// </summary>
+        /// <param name="username">手机号</param>
+        /// <param name="password">验证码</param>
+        /// <returns></returns>
+        private AjaxResult<TbUser> QueryUserSendVerify(string username, string password)
+        {
+            string key = KEY_PREFIX + username;
+            lock (Redis_Lock)//单线程，避免重复提交
+            {
+                string value = _cacheClientDB.Get<string>(key);
+                if (!password.Equals(value))
+                {
+                    return new AjaxResult<TbUser>()
+                    {
+                        Result = false,
+                        TValue = new TbUser(),
+                        Message = "验证码不匹配"
+                    };
+                    //验证码不匹配
+                    //throw new Exception("验证码不匹配");
+                }
+                _cacheClientDB.Remove(key);//把验证码从Redis中删除
+            }
+            var users = dbProxyCoreOptions.Query<TbUser>(c => c.Username == username && c.status == 0 && c.del_flag == 0);
+
+            if (users == null || users.Count < 1)
+            {
+                //throw new Exception("查询的用户不存在！");
+                return new AjaxResult<TbUser>()
+                {
+                    Result = false,
+                    TValue = new TbUser(),
+                    Message = "查询的用户不存在!"
+                };
+            }
+            TbUser user = users.FirstOrDefault()!;
+            return new AjaxResult<TbUser>()
+            {
+                Result = true,
+                TValue = user,
+                Message = "成功"
+            };
+        }
+
+        /// <summary>
+        /// 一键登录
+        /// </summary>
+        /// <param name="username">手机号</param>
+        /// <returns></returns>
+        private AjaxResult<TbUser> QueryUserOnekey(string username)
+        {
+            var users = dbProxyCoreOptions.Query<TbUser>(c => c.Phone == username && c.status == 0 && c.del_flag == 0);
+            if (users == null || users.Count < 1)
+            {
+                var ajaxResult = Register(new TbUser()
+                {
+                    Phone = username,
+
+                }, "一键登录");
+                if (!ajaxResult.Result)
+                {
+                    return new AjaxResult<TbUser>()
+                    {
+                        Result = false,
+                        TValue = new TbUser(),
+                        Message = ajaxResult.Message
+                    };
+                }
+                var user = dbProxyCoreOptions.Query<TbUser>(c => c.Username == username && c.status == 0 && c.del_flag == 0);
+                if (user == null || user.Count < 1)
+                {
+                    //throw new Exception("查询的用户不存在！");
+                    return new AjaxResult<TbUser>()
+                    {
+                        Result = false,
+                        TValue = new TbUser(),
+                        Message = "查询的用户不存在!"
+                    };
+                }
+                return new AjaxResult<TbUser>()
+                {
+                    Result = true,
+                    TValue = user.FirstOrDefault()!,
+                    Message = "成功"
+                };
+            }
+            return new AjaxResult<TbUser>()
+            {
+                Result = true,
+                TValue = users.FirstOrDefault()!,
+                Message = "成功"
+            };
+        }
+
+        /// <summary>
+        /// 根据账号密码查询用户
+        /// </summary>
+        /// <param name="username">账号</param>
+        /// <param name="password">密码</param>
+        /// <returns></returns>
+        private AjaxResult<TbUser> QueryUserpows(string username, string password)
         {
             //首先根据用户名查询用户
-            TbUser user = _orangeContext.TbUser.Where(m => m.Username == username).FirstOrDefault();
+            //TbUser user = _orangeContext.TbUser.Where(m => m.Username == username).FirstOrDefault();
+            var users = dbProxyCoreOptions.Query<TbUser>(c => c.Username == username && c.status == 0 && c.del_flag == 0);
 
-            if (user == null)
+            if (users == null || users.Count < 1)
             {
-                throw new Exception("查询的用户不存在！");
+                //throw new Exception("查询的用户不存在！");
+                return new AjaxResult<TbUser>()
+                {
+                    Result = false,
+                    TValue = new TbUser(),
+                    Message = "查询的用户不存在!"
+                };
             }
-
+            TbUser user = users.FirstOrDefault()!;
 
             if (MD5Helper.MD5EncodingWithSalt(password, user.Salt) != user.Password)
             {
                 //密码不正确
-                throw new Exception("密码错误");
+                //throw new Exception("密码错误");
+                return new AjaxResult<TbUser>()
+                {
+                    Result = false,
+                    TValue = new TbUser(),
+                    Message = "密码错误"
+                };
             }
-
-            return user;
+            user.login_date = DateTime.Now;
+            user.login_ip = GetIp();
+            dbProxyCoreOptions.Update(user);
+            return new AjaxResult<TbUser>()
+            {
+                Result = true,
+                TValue = user,
+                Message = "成功"
+            };
         }
-
         /// <summary>
         /// 根据用户名和key值验证信息
         /// </summary>
         /// <param name="username"></param>
         /// <param name="password"></param>
         /// <returns></returns>
-        public bool QueryUserPow(string username, string verificationPow)
+        public AjaxResult<bool> QueryUserPow(string username, string verificationPow)
         {
             //首先根据用户名查询用户
-            TbUser user = _orangeContext.TbUser.Where(m => m.Username == username).FirstOrDefault();
+            //TbUser user = _orangeContext.TbUser.Where(m => m.Username == username).FirstOrDefault();
 
             //TbUser user = _sqlSugarCompanyService.Query<TbUser>().Where(t=>t.Username== username).First();
-            if (user == null)
+            var users = dbProxyCoreOptions.Query<TbUser>(c => c.Username == username && c.status == 0 && c.del_flag == 0);
+            if (users == null)
             {
-                throw new Exception("查询的用户不存在！");
+                //throw new Exception("查询的用户不存在！");
+                return new AjaxResult<bool>()
+                {
+                    Result = false,
+                    TValue = false,
+                    Message = "查询的用户不存在!"
+                };
             }
+            TbUser user = users.FirstOrDefault()!;
 
             if (MD5Helper.MD5EncodingWithSalt(user.Password, username) != verificationPow)
             {
                 //密码不正确
-                return false;
+                //throw new Exception("密码错误");
+                return new AjaxResult<bool>()
+                {
+                    Result = false,
+                    TValue = false,
+                    Message = "密码错误"
+                };
             }
-            return true;
+            return new AjaxResult<bool>()
+            {
+                Result = true,
+                TValue = true,
+                Message = "成功"
+            };
         }
         /// <summary>
         /// 用户注册
         /// </summary>
         /// <param name="user"></param>
         /// <param name="code"></param>
-        public void Register(TbUser user, string code)
+        public AjaxResult Register(TbUser user, string code)
         {
-            string key = KEY_PREFIX + user.Phone;
-
-            lock (Redis_Lock)//单线程，避免重复提交
+            if (code == "一键登录")
             {
-                string value = _cacheClientDB.Get<string>(key);
-                if (!code.Equals(value))
-                {
-                    //验证码不匹配
-                    throw new Exception("验证码不匹配");
-                }
-                _cacheClientDB.Remove(key);//把验证码从Redis中删除
+                user.Username = user.Phone;
+                user.Password = "jnfu.123";
             }
-
+            else
+            {
+                string key = KEY_PREFIX + user.Phone;
+                lock (Redis_Lock)//单线程，避免重复提交
+                {
+                    string value = _cacheClientDB.Get<string>(key);
+                    if (!code.Equals(value))
+                    {
+                        return new AjaxResult<bool>()
+                        {
+                            Result = false,
+                            Message = "验证码不匹配"
+                        };
+                        //验证码不匹配
+                        //throw new Exception("验证码不匹配");
+                    }
+                    _cacheClientDB.Remove(key);//把验证码从Redis中删除
+                }
+            }
             user.Salt = MD5Helper.MD5EncodingOnly(user.Username);
             string md5Pwd = MD5Helper.MD5EncodingWithSalt(user.Password, user.Salt);
             user.Password = md5Pwd;
-            _orangeContext.Add(user);
-            int count = _orangeContext.SaveChanges();
-            if (count != 1)
+            user.status = 0;
+            user.del_flag = 0;
+            Random random = new Random();
+            user.names = "用户" + random.Next(100000, 999999).ToString();
+            //_orangeContext.Add(user);
+            //int count = _orangeContext.SaveChanges();
+            if (!dbProxyCoreOptions.Insert(user))
             {
-                throw new Exception("用户注册失败");
+                //throw new Exception("用户注册失败");
+                return new AjaxResult<bool>()
+                {
+                    Result = true,
+                    Message = "用户注册失败"
+                };
             }
+            return new AjaxResult<bool>()
+            {
+                Result = true,
+                Message = "成功"
+            };
         }
 
         private static readonly object Redis_Lock = new object();
@@ -168,7 +362,8 @@ namespace DaiMaWuDong.MSACommerce.Service
         /// <returns></returns>
         public AjaxResult CheckPhoneNumberBeforeSend(string phone)
         {
-            var list = this._orangeContext.TbUser.Where(u => u.Phone.Equals(phone)).ToList();
+            //var list = this._orangeContext.TbUser.Where(u => u.Phone.Equals(phone)).ToList();
+            var list = dbProxyCoreOptions.Query<TbUser>(c => c.Phone == phone && c.status == 0 && c.del_flag == 0).ToList();
             if (list.Count > 0)
             {
                 return new AjaxResult()
@@ -193,6 +388,108 @@ namespace DaiMaWuDong.MSACommerce.Service
                 Result = true,
                 Message = "发送成功"
             };
+        }
+
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <param name="username">用户名</param>
+        /// <param name="oldPassword">原密码</param>
+        /// <param name="NewPassword">新密码</param>
+        /// <returns></returns>
+        public AjaxResult ModifyPow(string username, string oldPassword, string NewPassword)
+        {
+            var users = dbProxyCoreOptions.Query<TbUser>(c => c.Username == username && c.status == 0 && c.del_flag == 0);
+            if (users == null || users.Count < 1)
+            {
+                //throw new Exception("查询的用户不存在！");
+                return new AjaxResult()
+                {
+                    Result = false,
+                    Message = "查询的用户不存在!"
+                };
+            }
+            TbUser user = users.FirstOrDefault()!;
+
+            if (MD5Helper.MD5EncodingWithSalt(oldPassword, user.Salt) != user.Password)
+            {
+                //密码不正确
+                //throw new Exception("密码错误");
+                return new AjaxResult()
+                {
+                    Result = false,
+                    Message = "密码错误"
+                };
+            }
+            string md5Pwd = MD5Helper.MD5EncodingWithSalt(NewPassword, user.Salt);
+            user.Password = md5Pwd;
+            user.pwd_update_date = DateTime.Now;
+            var result = dbProxyCoreOptions.Update(user);
+            if (!result)
+            {
+                return new AjaxResult()
+                {
+                    Result = false,
+                    Message = "修改密码失败!"
+                };
+            }
+            return new AjaxResult()
+            {
+                Result = false,
+                Message = "修改密码成功!"
+            };
+        }
+
+        /// <summary>
+        /// 修改信息
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public AjaxResult ModifyDate(TbUser user)
+        {
+            var users = dbProxyCoreOptions.Query<TbUser>(c => c.Username == user.Username && c.status == 0 && c.del_flag == 0);
+            if (users == null || users.Count < 1)
+            {
+                //throw new Exception("查询的用户不存在！");
+                return new AjaxResult()
+                {
+                    Result = false,
+                    Message = "查询的用户不存在!"
+                };
+            }
+            TbUser model = users.FirstOrDefault()!;
+            user.Password = model.Password;
+            var result = dbProxyCoreOptions.Update(user);
+            if (!result)
+            {
+                return new AjaxResult()
+                {
+                    Result = false,
+                    Message = "修改密码失败!"
+                };
+            }
+            return new AjaxResult()
+            {
+                Result = false,
+                Message = "修改密码成功!"
+            };
+        }
+
+        private string GetIp()
+        {
+            try
+            {
+                string hostName = Dns.GetHostName();
+                IPHostEntry iPHostEntry = Dns.GetHostEntry(hostName);
+                var addressV = iPHostEntry.AddressList.FirstOrDefault(q => q.AddressFamily == System.Net.Sockets.AddressFamily.InterNetwork);//ip4地址
+                if (addressV != null)
+                    return addressV.ToString();
+                return "127.0.0.1";
+            }
+            catch (Exception ex)
+            {
+                return "127.0.0.1";
+            }
         }
     }
 }

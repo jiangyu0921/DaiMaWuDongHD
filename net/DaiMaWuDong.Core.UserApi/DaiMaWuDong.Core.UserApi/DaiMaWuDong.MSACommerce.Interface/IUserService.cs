@@ -35,7 +35,7 @@ namespace DaiMaWuDong.MSACommerce.Interface
          * @param user
          * @param code
          */
-        void Register(TbUser user, string code);
+        AjaxResult Register(TbUser user, string code);
 
         /**
          * 根据账号和密码查询用户信息
@@ -43,7 +43,7 @@ namespace DaiMaWuDong.MSACommerce.Interface
          * @param password
          * @return
          */
-        TbUser QueryUser(string username, string password = null);
+        AjaxResult<TbUser> QueryUser(string username, string password, int type);
 
         /**
         * 根据用户名和key值验证信息
@@ -51,6 +51,25 @@ namespace DaiMaWuDong.MSACommerce.Interface
         * @param password
         * @return
         */
-        bool QueryUserPow(string username, string verificationPow);
+        AjaxResult<bool> QueryUserPow(string username, string verificationPow);
+
+
+        /**
+        * 修改密码
+        * @param username
+        * @param oldPassword
+        * @param NewPassword
+        * @return
+        */
+        AjaxResult ModifyPow(string username, string oldPassword, string NewPassword);
+
+        /**
+        * 修改信息
+        * @param username
+        * @param oldPassword
+        * @param NewPassword
+        * @return
+        */
+        AjaxResult ModifyDate(TbUser user);
     }
 }

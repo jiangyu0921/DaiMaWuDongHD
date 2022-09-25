@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6RUQUTBeKuuGNSiAFFj/M9TLjn8P1Cc7hITPnY1uGPNRIaRNrjM/CgGcUW7h+De9jj1zm5RDHU9BT8oHEx8oBw==",
+  "dgSpecHash": "BFJzb48FK9wjWjQc3Kgmth5MZd6uytVD9C3OgV09eLTHpBvIUn3jDv04Ji0KfZAew7VM1FmLCKH5vMK8qt0NTA==",
   "success": true,
-  "projectFilePath": "E:\\daimawudong\\代码\\DaiMaWuDong.Core.UserApi\\DaiMaWuDong.Core.UserApi\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
+  "projectFilePath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.Core.UserApi\\DaiMaWuDong.Core.UserApi\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
   "expectedPackageFiles": [],
   "logs": [
     {
@@ -10,6 +10,12 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://127.0.0.1:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.9.188:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
     }
   ]
 }

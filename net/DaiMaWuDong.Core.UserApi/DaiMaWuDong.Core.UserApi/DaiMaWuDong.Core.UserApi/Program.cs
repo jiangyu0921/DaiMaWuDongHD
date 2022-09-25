@@ -81,7 +81,7 @@ namespace DaiMaWuDong.Core.UserApi
             #endregion
 
             #region 服务注入
-            builder.Services.AddTransient<OrangeContext, OrangeContext>();
+            //builder.Services.AddTransient<OrangeContext, OrangeContext>();
             builder.Services.AddTransient<CacheClientDB, CacheClientDB>();
             builder.Services.AddTransient<IUserService, UserService>();
             //builder.Services.AddTransient<ISqlSugarCompanyService, SqlSugarCompanyService>();
@@ -156,8 +156,8 @@ namespace DaiMaWuDong.Core.UserApi
             }
 
             #region Consul注册
-            app.UseHealthCheckMiddleware("/Health");//心跳请求响应
-            app.Services.GetService<IConsulRegister>()!.UseConsulRegist().Wait();
+            //app.UseHealthCheckMiddleware("/Health");//心跳请求响应
+            //app.Services.GetService<IConsulRegister>()!.UseConsulRegist().Wait();
             #endregion
 
             app.UseHttpsRedirection();

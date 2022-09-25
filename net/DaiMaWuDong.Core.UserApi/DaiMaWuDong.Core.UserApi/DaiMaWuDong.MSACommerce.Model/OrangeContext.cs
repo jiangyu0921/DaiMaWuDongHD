@@ -85,12 +85,6 @@ namespace DaiMaWuDong.MSACommerce.Model
                 entity.Property(e => e.id)
                     .HasColumnName("id")
                     .HasColumnType("bigint(20)");
-
-                entity.Property(e => e.Created)
-                    .HasColumnName("created")
-                    .HasColumnType("datetime")
-                    .HasComment("创建时间");
-
                 entity.Property(e => e.Password)
                     .IsRequired()
                     .HasColumnName("password")
@@ -119,6 +113,80 @@ namespace DaiMaWuDong.MSACommerce.Model
                     .HasColumnName("username")
                     .HasColumnType("varchar(32)")
                     .HasComment("用户名")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+                entity.Property(e => e.names)
+                    .IsRequired()
+                    .HasColumnName("username")
+                    .HasColumnType("varchar(50)")
+                    .HasComment("用户昵称")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+                entity.Property(e => e.type)
+                    .HasColumnName("type")
+                    .HasColumnType("int(32)");
+                entity.Property(e => e.avatar)
+                    .IsRequired()
+                    .HasColumnName("avatar")
+                    .HasColumnType("varchar(100)")
+                    .HasComment("头像路径")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+                 entity.Property(e => e.status)
+                    .HasColumnName("status")
+                    .HasColumnType("int(32)");
+                 entity.Property(e => e.del_flag)
+                    .HasColumnName("del_flag")
+                    .HasColumnType("int(32)");
+                entity.Property(e => e.login_ip)
+                    .IsRequired()
+                    .HasColumnName("login_ip")
+                    .HasColumnType("varchar(128)")
+                    .HasComment("最后登录IP")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+                entity.Property(e => e.login_date)
+                    .HasColumnName("login_date")
+                    .HasColumnType("datetime")
+                    .HasComment("更新最后登录时间");
+                entity.Property(e => e.pwd_update_date)
+                    .HasColumnName("pwd_update_date")
+                    .HasColumnType("datetime")
+                    .HasComment("密码最后更新时间");
+                entity.Property(e => e.create_by)
+                    .IsRequired()
+                    .HasColumnName("create_by")
+                    .HasColumnType("varchar(32)")
+                    .HasComment("创建者")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+                entity.Property(e => e.create_time)
+                    .HasColumnName("create_time")
+                    .HasColumnType("datetime")
+                    .HasComment("创建时间");
+                entity.Property(e => e.update_by)
+                    .IsRequired()
+                    .HasColumnName("update_by")
+                    .HasColumnType("varchar(32)")
+                    .HasComment("更新者")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci");
+                entity.Property(e => e.update_time)
+                    .HasColumnName("update_time")
+                    .HasColumnType("datetime")
+                    .HasComment("修改时间");
+                entity.Property(e => e.remark)
+                    .IsRequired()
+                    .HasColumnName("remark")
+                    .HasColumnType("varchar(500)")
+                    .HasComment("备注")
+                    .HasCharSet("utf8")
+                    .HasCollation("utf8_general_ci"); 
+                entity.Property(e => e.scid)
+                    .IsRequired()
+                    .HasColumnName("scid")
+                    .HasColumnType("varchar(50)")
+                    .HasComment("手机标识码")
                     .HasCharSet("utf8")
                     .HasCollation("utf8_general_ci");
             });

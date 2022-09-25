@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DaiMaWuDong.Common.Model" Version="1.0.2" />
+    <Compile Remove="OrangeContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DaiMaWuDong.AgileFramework.ORMSelfResearch" Version="1.0.3" />
+    <PackageReference Include="DaiMaWuDong.Common.Model" Version="1.0.3" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
   </ItemGroup>

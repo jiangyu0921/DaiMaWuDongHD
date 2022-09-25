@@ -2,6 +2,7 @@
 using DaiMaWuDong.Common.Model;
 using DaiMaWuDong.MSACommerce.Interface;
 using DaiMaWuDong.MSACommerce.Model;
+using JWT.Serializers;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -32,6 +33,9 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
             this._IConfiguration = configuration;
         }
         #endregion
+
+
+        #region 用户信息表
 
         /// <summary>
         /// 检查信息格式
@@ -80,12 +84,8 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
         //[TypeFilter(typeof(CustomAction2CommitFilterAttribute))]
         public JsonResult Register([FromForm] TbUser user, [FromForm] string code)
         {
-            _userService.Register(user, code);
-            return new JsonResult(new AjaxResult()
-            {
-                Result = true,
-                Message = "注册成功"
-            });
+            AjaxResult ajaxResult= _userService.Register(user, code);
+            return new JsonResult(ajaxResult);
         }
 
         /// <summary>
@@ -93,20 +93,15 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
         /// </summary>
         /// <param name="username"></param>
         /// <param name="password"></param>
+        /// <param name="type">1密码2一键登录3短信登录</param>
         /// <returns></returns>
         [Route("query")]
         [HttpGet]
-        public JsonResult QueryUser(string username, string password)
+        public JsonResult QueryUser(string username, string password,int type)
         {
-            Console.WriteLine($"This is {typeof(UserController).Name}{nameof(QueryUser)} username={username} password={password}");
+            Console.WriteLine($"This is {typeof(UserController).Name}{nameof(QueryUser)} username={username} password={password} type={type}");
             AjaxResult<TbUser> ajaxResult = null;
-            TbUser tbUser = _userService.QueryUser(username, password);
-
-            ajaxResult = new AjaxResult<TbUser>()
-            {
-                Result = true,
-                TValue = tbUser
-            };
+            ajaxResult = _userService.QueryUser(username, password, type);
             _logger.LogInformation($"用户微服务->用户的登录操作 username={username} password={password}");
             return new JsonResult(ajaxResult);
         }
@@ -123,13 +118,7 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
         {
             Console.WriteLine($"This is {typeof(UserController).Name}{nameof(QueryUser)} verificationPow={verificationPow}");
             AjaxResult<bool> ajaxResult = null;
-            bool result = _userService.QueryUserPow(username, verificationPow);
-
-            ajaxResult = new AjaxResult<bool>()
-            {
-                Result = true,
-                TValue = result
-            };
+            ajaxResult = _userService.QueryUserPow(username, verificationPow);
             return new JsonResult(ajaxResult);
         }
 
@@ -155,6 +144,10 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
                 {
                     string username = claimlist.FirstOrDefault(u => u.Type == ClaimTypes.Name)?.Value;
                     string id = claimlist.FirstOrDefault(u => u.Type == "Id").Value;
+                    string names = claimlist.FirstOrDefault(u => u.Type == "names").Value;
+                    string type = claimlist.FirstOrDefault(u => u.Type == "type").Value;
+                    string phone = claimlist.FirstOrDefault(u => u.Type == "phone").Value;
+                    string scid = claimlist.FirstOrDefault(u => u.Type == "scid").Value;
                     ajaxResult = new AjaxResult()
                     {
                         StatusCode = 200,
@@ -163,6 +156,10 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
                         {
                             id = id,
                             username = username,
+                            names = names,
+                            type = type,
+                            phone = phone,
+                            scid = scid
                         }
                     };
                 }
@@ -237,5 +234,40 @@ namespace DaiMaWuDong.Core.UserApi.Controllers
         //}
         #endregion
 
+        #endregion
+
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <param name="username">用户名</param>
+        /// <param name="oldPassword">旧密码</param>
+        /// <param name="NewPassword">新密码</param>
+        /// <returns></returns>
+        [Route("query")]
+        [HttpPost]
+        public JsonResult ModifyPow(string username, string oldPassword, string NewPassword)
+        {
+            Console.WriteLine($"This is {typeof(UserController).Name}{nameof(QueryUser)} oldPassword={username} oldPassword={oldPassword} NewPassword={NewPassword}");
+            AjaxResult ajaxResult = _userService.ModifyPow(username, oldPassword, NewPassword);
+            _logger.LogInformation($"用户微服务->用户的登录操作 username={username} oldPassword={oldPassword} NewPassword={NewPassword}");
+            return new JsonResult(ajaxResult);
+        }
+
+        /// <summary>
+        /// 修改密码
+        /// </summary>
+        /// <param name="username">用户名</param>
+        /// <param name="oldPassword">旧密码</param>
+        /// <param name="NewPassword">新密码</param>
+        /// <returns></returns>
+        [Route("query")]
+        [HttpPost]
+        public JsonResult ModifyDate([FromForm] TbUser user)
+        {
+            Console.WriteLine($"This is {typeof(UserController).Name}{nameof(QueryUser)} user={user}");
+            AjaxResult ajaxResult = _userService.ModifyDate(user);
+            _logger.LogInformation($"用户微服务->用户的登录操作 user={user}");
+            return new JsonResult(ajaxResult);
+        }
     }
 }

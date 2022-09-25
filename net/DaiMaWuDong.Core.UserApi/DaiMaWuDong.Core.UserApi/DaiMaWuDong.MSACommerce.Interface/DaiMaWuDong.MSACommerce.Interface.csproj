@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DaiMaWuDong.Common.Model" Version="1.0.2" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DaiMaWuDong.MSACommerce.Model\DaiMaWuDong.MSACommerce.Model.csproj" />
   </ItemGroup>
 
