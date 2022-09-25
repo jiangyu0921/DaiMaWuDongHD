@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj": {}
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj": {}
   },
   "projects": {
-    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj": {
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj",
+        "projectUniqueName": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj",
         "projectName": "DaiMaWuDong.MSACommerce.AuthenticationCenter",
-        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj",
+        "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\obj\\",
+        "outputPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -30,14 +30,15 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "http://127.0.0.1:5000/v3/index.json": {},
+          "http://192.168.9.188:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj": {
-                "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj"
+              "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj": {
+                "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj"
               }
             }
           }
@@ -54,7 +55,7 @@
           "dependencies": {
             "DaiMaWuDong.AgileFramework.AuthenticationCenter": {
               "target": "Package",
-              "version": "[1.0.1, )"
+              "version": "[1.0.3, )"
             },
             "DaiMaWuDong.AgileFramework.Consul": {
               "target": "Package",
@@ -66,7 +67,7 @@
             },
             "DaiMaWuDong.Common.Model": {
               "target": "Package",
-              "version": "[1.0.2, )"
+              "version": "[1.0.3, )"
             },
             "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
               "target": "Package",
@@ -104,14 +105,14 @@
         }
       }
     },
-    "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj": {
+    "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
+        "projectUniqueName": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
         "projectName": "DaiMaWuDong.MSACommerce.DTOModel",
-        "projectPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
+        "projectPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\DaiMaWuDong.MSACommerce.DTOModel.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\obj\\",
+        "outputPath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.DTOModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -130,6 +131,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "http://127.0.0.1:5000/v3/index.json": {},
+          "http://192.168.9.188:5000/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

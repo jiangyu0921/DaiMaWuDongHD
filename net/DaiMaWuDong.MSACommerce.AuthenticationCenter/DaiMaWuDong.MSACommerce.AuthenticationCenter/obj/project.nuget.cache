@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "jx/JKN7uQtvF4ZEgEroCBaUe5yWavPwruJ0yVu7ejobgAixYkjiNdBv5K8WtL71IeSjw1vLYhaGBf5yEla3SIg==",
+  "dgSpecHash": "lJsJZJPLfWz557sK2/Of9u/NcmG0TwoTNntOn5S8wrgFG/rDON9I0ft2BkgxMjICQM8DCokjEOjKdLFcv82ApQ==",
   "success": true,
-  "projectFilePath": "E:\\daimawudong\\代码\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj",
+  "projectFilePath": "D:\\家电服务\\daima\\DaiMaWuDongHD\\net\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter\\DaiMaWuDong.MSACommerce.AuthenticationCenter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\confluent.kafka\\1.9.2\\confluent.kafka.1.9.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\consul\\1.6.10.4\\consul.1.6.10.4.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\daimawudong.agileframework.authenticationcenter\\1.0.1\\daimawudong.agileframework.authenticationcenter.1.0.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\daimawudong.agileframework.authenticationcenter\\1.0.3\\daimawudong.agileframework.authenticationcenter.1.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\daimawudong.agileframework.consul\\1.0.1\\daimawudong.agileframework.consul.1.0.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\daimawudong.agileframework.encryption\\1.0.1\\daimawudong.agileframework.encryption.1.0.1.nupkg.sha512",
-    "C:\\Users\\admin\\.nuget\\packages\\daimawudong.common.model\\1.0.2\\daimawudong.common.model.1.0.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\daimawudong.common.model\\1.0.3\\daimawudong.common.model.1.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\jwt\\9.0.3\\jwt.9.0.3.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\librdkafka.redist\\1.9.2\\librdkafka.redist.1.9.2.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\log4net\\2.0.13\\log4net.2.0.13.nupkg.sha512",
@@ -108,6 +108,12 @@
       "level": "Warning",
       "warningLevel": 1,
       "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://127.0.0.1:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://192.168.9.188:5000/v3/index.json'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
     }
   ]
 }

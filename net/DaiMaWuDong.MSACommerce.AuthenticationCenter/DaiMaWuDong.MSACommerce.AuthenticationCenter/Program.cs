@@ -131,7 +131,7 @@ namespace DaiMaWuDong.MSACommerce.AuthenticationCenter
                 //    password = Response["password"];
                 //}
 
-                string requestUrl = $"{builder.Configuration["VerifyUserUrl"]}?username={user.username}&password={user.password}";
+                string requestUrl = $"{builder.Configuration["VerifyUserUrl"]}?username={user.username}&password={user.password}&type={user.type}";
                 string realUrl = requestUrl;//this._IConsulDispatcher.GetAddress(requestUrl);
 
                 Console.WriteLine($"{requestUrl}--{realUrl}");
@@ -142,8 +142,17 @@ namespace DaiMaWuDong.MSACommerce.AuthenticationCenter
 
                     string token = jwtService.GetToken(new JWTUserModel()
                     {
-                        id = dtoUser.id,
-                        username = dtoUser.username
+                        id = dtoUser.id!,
+                        username = dtoUser.Username!,
+                        names = dtoUser.names,
+                        type = dtoUser.type,
+                        Phone = dtoUser.Phone,
+                        avatar = dtoUser.avatar,
+                        status = dtoUser.status,
+                        del_flag = dtoUser.del_flag,
+                        login_ip = dtoUser.login_ip,
+                        login_date = dtoUser.login_date,
+                        scid = dtoUser.scid,
                     });
                     ajaxResult.Value = token;
                 }
@@ -179,7 +188,7 @@ namespace DaiMaWuDong.MSACommerce.AuthenticationCenter
                     //    password = Response["password"];
                     //}
 
-                    string requestUrl = $"{builder.Configuration["VerifyUserUrl"]}?username={user.username}&password={user.password}";
+                    string requestUrl = $"{builder.Configuration["VerifyUserUrl"]}?username={user.username}&password={user.password}}}&type={{user.type}}";
                     string realUrl = requestUrl;//this._IConsulDispatcher.GetAddress(requestUrl);
 
                     //Console.WriteLine($"{requestUrl}--{realUrl}");
@@ -190,9 +199,18 @@ namespace DaiMaWuDong.MSACommerce.AuthenticationCenter
 
                         var tokenPair = jwtService.GetTokenWithRefresh(new JWTUserModel()
                         {
-                            id = dtoUser.id,
-                            username = dtoUser.username,
-                            verificationPow = MD5Helper.MD5EncodingWithSalt(dtoUser.password, dtoUser.username)
+                            id = dtoUser.id!,
+                            username = dtoUser.Username!,
+                            names = dtoUser.names,
+                            type = dtoUser.type,
+                            Phone = dtoUser.Phone,
+                            avatar = dtoUser.avatar,
+                            status = dtoUser.status,
+                            del_flag = dtoUser.del_flag,
+                            login_ip = dtoUser.login_ip,
+                            login_date = dtoUser.login_date,
+                            scid = dtoUser.scid,
+                            verificationPow = MD5Helper.MD5EncodingWithSalt(dtoUser.Password!, dtoUser.Username!)
                         });
                         if (tokenPair != null && !string.IsNullOrEmpty(tokenPair.Item1))
                         {
@@ -288,6 +306,8 @@ namespace DaiMaWuDong.MSACommerce.AuthenticationCenter
             get; set;
         }
         public string? password { get; set; }
+
+        public int? type { get; set; }
     }
 
 }

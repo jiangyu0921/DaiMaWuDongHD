@@ -8,10 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "DaiMaWuDong.MSACommerce.AuthenticationCenter/1.0.0": {
         "dependencies": {
-          "DaiMaWuDong.AgileFramework.AuthenticationCenter": "1.0.1",
+          "DaiMaWuDong.AgileFramework.AuthenticationCenter": "1.0.2",
           "DaiMaWuDong.AgileFramework.Consul": "1.0.1",
           "DaiMaWuDong.AgileFramework.Encryption": "1.0.1",
-          "DaiMaWuDong.Common.Model": "1.0.2",
+          "DaiMaWuDong.Common.Model": "1.0.3",
           "DaiMaWuDong.MSACommerce.DTOModel": "1.0.0",
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "6.1.0",
           "Swashbuckle.AspNetCore": "6.2.3",
@@ -44,7 +44,7 @@
           }
         }
       },
-      "DaiMaWuDong.AgileFramework.AuthenticationCenter/1.0.1": {
+      "DaiMaWuDong.AgileFramework.AuthenticationCenter/1.0.2": {
         "dependencies": {
           "JWT": "9.0.3",
           "Microsoft.AspNetCore.Authorization": "2.2.0",
@@ -56,8 +56,8 @@
         },
         "runtime": {
           "lib/net6.0/DaiMaWuDong.AgileFramework.AuthenticationCenter.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
           }
         }
       },
@@ -82,11 +82,11 @@
           }
         }
       },
-      "DaiMaWuDong.Common.Model/1.0.2": {
+      "DaiMaWuDong.Common.Model/1.0.3": {
         "runtime": {
           "lib/net6.0/DaiMaWuDong.Common.Model.dll": {
-            "assemblyVersion": "1.0.2.0",
-            "fileVersion": "1.0.2.0"
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
           }
         }
       },
@@ -244,7 +244,7 @@
       "log4net.Kafka.Core/1.0.1": {
         "dependencies": {
           "Confluent.Kafka": "1.9.2",
-          "DaiMaWuDong.Common.Model": "1.0.2",
+          "DaiMaWuDong.Common.Model": "1.0.3",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.0",
           "Newtonsoft.Json": "13.0.1",
           "log4net": "2.0.13"
@@ -926,12 +926,12 @@
       "path": "consul/1.6.10.4",
       "hashPath": "consul.1.6.10.4.nupkg.sha512"
     },
-    "DaiMaWuDong.AgileFramework.AuthenticationCenter/1.0.1": {
+    "DaiMaWuDong.AgileFramework.AuthenticationCenter/1.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-B9pTTEmyOeqPkr/YLMKZQjWAn3smQrm0W2yITWWOIlalrf8ksMZJv1WNQysKJmzL6cCVKGIvqrR8CvBoOBmnjg==",
-      "path": "daimawudong.agileframework.authenticationcenter/1.0.1",
-      "hashPath": "daimawudong.agileframework.authenticationcenter.1.0.1.nupkg.sha512"
+      "sha512": "sha512-mSWPRpx0PjfLdZTRNfZinP71PebbWDgKcAtJUDdn25ZGIW/Zm8FECt+XXyf4bzCf/gaAAUqVBKAQ63z1II86IQ==",
+      "path": "daimawudong.agileframework.authenticationcenter/1.0.2",
+      "hashPath": "daimawudong.agileframework.authenticationcenter.1.0.2.nupkg.sha512"
     },
     "DaiMaWuDong.AgileFramework.Consul/1.0.1": {
       "type": "package",
@@ -947,12 +947,12 @@
       "path": "daimawudong.agileframework.encryption/1.0.1",
       "hashPath": "daimawudong.agileframework.encryption.1.0.1.nupkg.sha512"
     },
-    "DaiMaWuDong.Common.Model/1.0.2": {
+    "DaiMaWuDong.Common.Model/1.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-J5y/nztVGc8kMbPgvTdo2/yIUd6OzFr/16qDH4UgU4Q8MjGnilXNyjnuRq8udd5NPy6KJmH0AsaE2oDtpMlA8w==",
-      "path": "daimawudong.common.model/1.0.2",
-      "hashPath": "daimawudong.common.model.1.0.2.nupkg.sha512"
+      "sha512": "sha512-DjV7wr7yyM0k8bsRVGNxZFvgQfIvABu8yW+sRff0ZPLS0smU3KV35ViQErjCj3ueS6cgDX6wEVfstwsiJrZRFA==",
+      "path": "daimawudong.common.model/1.0.3",
+      "hashPath": "daimawudong.common.model.1.0.3.nupkg.sha512"
     },
     "JWT/9.0.3": {
       "type": "package",
